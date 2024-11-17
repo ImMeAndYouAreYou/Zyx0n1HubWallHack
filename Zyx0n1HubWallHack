@@ -587,7 +587,7 @@ local Visuals = {
 							PlayerTable.HeadDot.Thickness = Environment.Visuals.HeadDotSettings.Thickness
 							PlayerTable.HeadDot.Color = Environment.Visuals.HeadDotSettings.Color
 							PlayerTable.HeadDot.Transparency = Environment.Visuals.HeadDotSettings.Transparency
-							PlayerTable.HeadDot.NumSides = Environment.Visuals.HeadDotSettings.Sides
+						--	PlayerTable.HeadDot.NumSides = Environment.Visuals.HeadDotSettings.Sides
 							PlayerTable.HeadDot.Filled = Environment.Visuals.HeadDotSettings.Filled
 							PlayerTable.HeadDot.Position = Vector2new(Vector.X, Vector.Y)
 
