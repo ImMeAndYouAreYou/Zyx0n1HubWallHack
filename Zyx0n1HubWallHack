@@ -803,7 +803,6 @@ local function UnWrap(Player)
 
 		for _, v in next, Table.Box do
 			if not v.Remove then
-				continue
 			else
 				v:Remove()
 			end
@@ -812,7 +811,6 @@ local function UnWrap(Player)
 		for _, v in next, Table.Chams do
 			for _, v2 in next, v do
 				if not v2.Remove then
-					continue
 				else
 					v2:Remove()
 				end
